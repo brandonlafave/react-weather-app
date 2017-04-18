@@ -6,9 +6,6 @@
 }
 
 .WeatherTileContainer {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -16,20 +13,10 @@
 
 .WeatherTile {
 	height: 250px;
-	width: 50%;
 	text-align: left;
 	padding: 1em;
+	margin: 1em;
 	border: 1px solid black;
-}
-
-@media only screen and (min-device-width : 768px) {
-	.WeatherTile {
-		width: 33%;
-	}
-
-	.WeatherTileContainer {
-		width: 980px;
-	}
 }
 
 @media screen and (max-width: 767px) {
@@ -38,19 +25,20 @@
 	}
 }
 
-.pull-right {
-	float: right;
+@media only screen and (min-device-width : 768px) and (max-device-width: 990px){
+	.WeatherTile {
+		width: 33%;
+	}
 }
 
-@media screen and (max-width: 500px) {
- 	.pull-right {
-		float: none;
+@media only screen and (min-device-width : 999px) {
+	.WeatherTile {
+		width: 25%;
 	}
 }
-@media screen and (max-width: 300px) {
- 	.pull-right {
-		float: none;
-	}
+
+.pull-right {
+	float: right;
 }
 
 /* Weather Icons 
