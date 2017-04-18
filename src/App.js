@@ -3,12 +3,13 @@ import fetchJsonp from 'fetch-jsonp';
 import logo from './logo.svg';
 import config from './config.json';
 import './App.css';
+import WeatherTile from './components/WeatherTile/WeatherTile';
 
 class App extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			tiles: []
+			dailyForcast: []
 		};
 	}
 
@@ -20,7 +21,7 @@ class App extends Component {
 		fetchJsonp('https://api.darksky.net/forecast/' + config.API_KEY + '/37.8267,-122.4233')
 		.then((res) => res.json())
 		.then(res => {
-			this.setState({ tiles: res.daily.data})
+			this.setState({ dailyForcast: res.daily.data})
 			console.log(res.daily.data)
 		})
 		.catch( er => {
@@ -38,6 +39,7 @@ class App extends Component {
 				<p className="App-intro">
 			  		To get started, edit <code>src/App.js</code> and save to reload.
 				</p>
+				<WeatherTile forcast={this.state.dailyForcast} />
 		  	</div>
 		);
 	}
