@@ -40,6 +40,9 @@ class App extends Component {
 			  		To get started, edit <code>src/App.js</code> and save to reload.
 				</p>
 				<WeatherTile forcast={this.state.dailyForcast} />
+				<footer>
+					<a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
+				</footer>
 		  	</div>
 		);
 	}
