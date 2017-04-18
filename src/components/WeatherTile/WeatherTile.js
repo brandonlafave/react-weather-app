@@ -7,11 +7,13 @@ class WeatherTile extends Component {
 
 		let weatherTiles = this.props.forcast.map((day, index) => {
 			return (
-				<div key={index}>
-					<div className={ day.icon ? day.icon : 'default-icon' }></div>
+				<div className="WeatherTile" key={index}>
 					<p>{day.summary}</p>
-					<p>Min: {day.temperatureMin}</p>
-					<p>Max: {day.temperatureMax}</p>
+					<div className={ day.icon ? day.icon : 'default-icon' }></div>
+					<div className="pull-right">
+						<p>Min: {day.temperatureMin}˚</p>
+						<p>Max: {day.temperatureMax}˚</p>
+					</div>
 				</div>
 			);
 		});

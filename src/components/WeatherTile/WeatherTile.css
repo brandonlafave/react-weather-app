@@ -1,16 +1,89 @@
+/* General WeatherTile Styles
+---------------------------- */
+
+.fs-24 {
+	font-size: 24px;
+}
+
+.WeatherTileContainer {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.WeatherTile {
+	height: 250px;
+	width: 50%;
+	text-align: left;
+	padding: 1em;
+	border: 1px solid black;
+}
+
+@media only screen and (min-device-width : 768px) {
+	.WeatherTile {
+		width: 33%;
+	}
+
+	.WeatherTileContainer {
+		width: 980px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+ 	.WeatherTile {
+		width: 90%;
+	}
+}
+
+.pull-right {
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+ 	.pull-right {
+		float: none;
+	}
+}
+@media screen and (max-width: 300px) {
+ 	.pull-right {
+		float: none;
+	}
+}
+
 /* Weather Icons 
 ----------------*/
 
+.clear-day,
+.clear-night, 
+.cloudy, 
+.default-icon, 
+.fog,
+.partly-cloudy-day,
+.partly-cloudy-night,
+.rain,
+.sleet,
+.snow,
+.wind {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 5em;
+	width: 5em;
+	float: left;
+}
+
 .clear-day {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Sun.svg');
 }
 
 .clear-night {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Moon.svg');
 }
 
 .cloudy {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Cloud.svg');
 }
 
 .default-icon {
@@ -18,29 +91,29 @@
 }
 
 .fog {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Cloud-Fog.svg');
 }
 
 .partly-cloudy-day {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Cloud-Fog-Sun.svg');
 }
 
 .partly-cloudy-night {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Cloud-Fog-Moon.svg');
 }
 
 .rain {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Cloud-Rain.svg');
 }
 
 .sleet {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Cloud-Hail.svg');
 }
 
 .snow {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Snowflake.svg');
 }
 
 .wind {
-	background-image: url('https://www.google.com');
+	background-image: url('../../images/Wind.svg');
 }
