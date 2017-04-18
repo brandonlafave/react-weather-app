@@ -1,0 +1,46 @@
+/* Weather Icons 
+----------------*/
+
+.clear-day {
+	background-image: url('https://www.google.com');
+}
+
+.clear-night {
+	background-image: url('https://www.google.com');
+}
+
+.cloudy {
+	background-image: url('https://www.google.com');
+}
+
+.default-icon {
+	background-image: url('https://www.google.com');
+}
+
+.fog {
+	background-image: url('https://www.google.com');
+}
+
+.partly-cloudy-day {
+	background-image: url('https://www.google.com');
+}
+
+.partly-cloudy-night {
+	background-image: url('https://www.google.com');
+}
+
+.rain {
+	background-image: url('https://www.google.com');
+}
+
+.sleet {
+	background-image: url('https://www.google.com');
+}
+
+.snow {
+	background-image: url('https://www.google.com');
+}
+
+.wind {
+	background-image: url('https://www.google.com');
+}
