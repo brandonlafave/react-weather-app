@@ -32,10 +32,10 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<div className="App-header">
+				<header className="App-header">
 			  		<img src={logo} className="App-logo" alt="logo" />
 			  		<h1>Brandon's Weather App</h1>
-				</div>
+				</header>
 				<WeatherTile forcast={this.state.dailyForcast} />
 				<footer className="App-footer">
 					<a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
