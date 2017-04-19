@@ -1,0 +1,98 @@
+/* CSS Document */
+
+/* Book */
+@font-face {
+    font-family: "Neutraface-Book";
+    src: url('NeutrafaceText-Book_Alt_LF.eot');
+    src: url("NeutrafaceText-Book_Alt_LF.eot#iefix") format("embedded-opentype"),
+    url("NeutrafaceText-Book_Alt_LF.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+/* Book Italic */
+@font-face {
+    font-family: "Neutraface";
+    src: url('NeutrafaceText-BookItalicLF.eot');
+    src: url("NeutrafaceText-BookItalicLF.eot#iefix") format("embedded-opentype"),
+    url("NeutrafaceText-BookItalicLF.woff") format("woff");
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: "Neutraface";
+    src: url('NeutrafaceText-Bold_Alt_LF.eot');
+    src: url("NeutrafaceText-Bold_Alt_LF.eot#iefix") format("embedded-opentype"),
+    url("NeutrafaceText-Bold_Alt_LF.woff") format("woff");
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+}
+
+/* Bold Italic*/
+@font-face {
+    font-family: "Neutraface";
+    src: url('NeutrafaceText-BoldItalicLF.eot');
+    src: url("NeutrafaceText-BoldItalicLF.eot#iefix") format("embedded-opentype"),
+    url("NeutrafaceText-BoldItalicLF.woff") format("woff");
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: normal;
+}
+
+/* Demi */
+@font-face {
+    font-family: "Neutraface";
+    src: url('NeutrafaceText-DemiLF.eot');
+    src: url("NeutrafaceText-DemiLF.eot#iefix") format("embedded-opentype"),
+    url("NeutrafaceText-DemiLF.woff") format("woff");
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+}
+
+/* Demi Italic*/
+@font-face {
+    font-family: "Neutraface";
+    src: url('NeutrafaceText-DemiItalicAlt.eot');
+    src: url("NeutrafaceText-DemiItalicAlt.eot#iefix") format("embedded-opentype"),
+    url("NeutrafaceText-DemiItalicAlt.woff") format("woff");
+    font-style: italic;
+    font-weight: 600;
+    font-stretch: normal;
+}
+
+/* callouts */
+.book {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.book-italic {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.bold {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.bold-italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.demi {
+    font-style: normal;
+    font-weight: 600;
+}
+
+.demi-italic {
+    font-style: italic;
+    font-weight: 600;
+}
