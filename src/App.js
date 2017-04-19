@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import fetchJsonp from 'fetch-jsonp';
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import config from './config.json';
 import './App.css';
+import './fonts/fonts.css'
 import WeatherTile from './components/WeatherTile/WeatherTile';
 
 class App extends Component {
 	constructor(props) {
-		super(props);
+		super(props)
 		this.state = {
 			dailyForcast: []
 		};
@@ -34,10 +35,10 @@ class App extends Component {
 			<div className="App">
 				<div className="App-header">
 			  		<img src={logo} className="App-logo" alt="logo" />
-			  		<h2>Welcome to React</h2>
+			  		<h2>Brandon's Weather App</h2>
 				</div>
 				<WeatherTile forcast={this.state.dailyForcast} />
-				<footer>
+				<footer className="App-footer">
 					<a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
 				</footer>
 		  	</div>
