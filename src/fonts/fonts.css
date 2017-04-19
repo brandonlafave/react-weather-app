@@ -13,42 +13,11 @@
 
 /* Demi */
 @font-face {
-    font-family: "Neutraface";
+    font-family: "Neutraface-Demi";
     src: url('NeutrafaceText-DemiLF.eot');
     src: url("NeutrafaceText-DemiLF.eot#iefix") format("embedded-opentype"),
     url("NeutrafaceText-DemiLF.woff") format("woff");
     font-style: normal;
     font-weight: 600;
     font-stretch: normal;
-}
-
-/* callouts */
-.book {
-    font-style: normal;
-    font-weight: 400;
-}
-
-.book-italic {
-    font-style: italic;
-    font-weight: normal;
-}
-
-.bold {
-    font-style: normal;
-    font-weight: bold;
-}
-
-.bold-italic {
-    font-style: italic;
-    font-weight: bold;
-}
-
-.demi {
-    font-style: normal;
-    font-weight: 600;
-}
-
-.demi-italic {
-    font-style: italic;
-    font-weight: 600;
 }
