@@ -11,39 +11,6 @@
     font-stretch: normal;
 }
 
-/* Book Italic */
-@font-face {
-    font-family: "Neutraface";
-    src: url('NeutrafaceText-BookItalicLF.eot');
-    src: url("NeutrafaceText-BookItalicLF.eot#iefix") format("embedded-opentype"),
-    url("NeutrafaceText-BookItalicLF.woff") format("woff");
-    font-style: italic;
-    font-weight: normal;
-    font-stretch: normal;
-}
-
-/* Bold */
-@font-face {
-    font-family: "Neutraface";
-    src: url('NeutrafaceText-Bold_Alt_LF.eot');
-    src: url("NeutrafaceText-Bold_Alt_LF.eot#iefix") format("embedded-opentype"),
-    url("NeutrafaceText-Bold_Alt_LF.woff") format("woff");
-    font-style: normal;
-    font-weight: bold;
-    font-stretch: normal;
-}
-
-/* Bold Italic*/
-@font-face {
-    font-family: "Neutraface";
-    src: url('NeutrafaceText-BoldItalicLF.eot');
-    src: url("NeutrafaceText-BoldItalicLF.eot#iefix") format("embedded-opentype"),
-    url("NeutrafaceText-BoldItalicLF.woff") format("woff");
-    font-style: italic;
-    font-weight: bold;
-    font-stretch: normal;
-}
-
 /* Demi */
 @font-face {
     font-family: "Neutraface";
@@ -51,17 +18,6 @@
     src: url("NeutrafaceText-DemiLF.eot#iefix") format("embedded-opentype"),
     url("NeutrafaceText-DemiLF.woff") format("woff");
     font-style: normal;
-    font-weight: 600;
-    font-stretch: normal;
-}
-
-/* Demi Italic*/
-@font-face {
-    font-family: "Neutraface";
-    src: url('NeutrafaceText-DemiItalicAlt.eot');
-    src: url("NeutrafaceText-DemiItalicAlt.eot#iefix") format("embedded-opentype"),
-    url("NeutrafaceText-DemiItalicAlt.woff") format("woff");
-    font-style: italic;
     font-weight: 600;
     font-stretch: normal;
 }
