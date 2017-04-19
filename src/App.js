@@ -23,7 +23,6 @@ class App extends Component {
 		.then((res) => res.json())
 		.then(res => {
 			this.setState({ dailyForcast: res.daily.data})
-			console.log(res.daily.data)
 		})
 		.catch( er => {
 			console.log('There was an error with the repsonse')
@@ -35,7 +34,7 @@ class App extends Component {
 			<div className="App">
 				<div className="App-header">
 			  		<img src={logo} className="App-logo" alt="logo" />
-			  		<h2>Brandon's Weather App</h2>
+			  		<h1>Brandon's Weather App</h1>
 				</div>
 				<WeatherTile forcast={this.state.dailyForcast} />
 				<footer className="App-footer">
