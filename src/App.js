@@ -34,7 +34,7 @@ class App extends Component {
 			<div className="App">
 				<header className="App-header">
 			  		<img src={logo} className="App-logo" alt="logo" />
-			  		<h1>Brandon's Weather App</h1>
+			  		<h1 className="fs-medium">Brandon's Weather App</h1>
 				</header>
 				<WeatherTile forcast={this.state.dailyForcast} />
 				<footer className="App-footer">
