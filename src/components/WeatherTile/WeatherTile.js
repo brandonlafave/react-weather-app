@@ -4,7 +4,7 @@ import './WeatherTile.css';
 class WeatherTile extends Component {
 
 	getDate(time) {
-		// Converts timestamp returned from the API into milliseconds 
+		// Converts timestamp returned from the API into milliseconds and creates a new Date object
 		let d = new Date(time * 1000)
 		// Converts the Date object into a string that can be rendered to the UI
 		let d2 = d.toString()
@@ -20,6 +20,7 @@ class WeatherTile extends Component {
 					<div className="margin-lr">
 						<h2>{ this.getDate(day.time) }</h2>
 					</div>
+					{/* Fallsback to a default icon if the API returns a new icon that's not available in the app yet */}	
 					<div className={ day.icon ? day.icon : 'default-icon' }></div>
 					<p className="fs-small">{ day.summary }</p>
 					<p className="fs-small">Low: <span className="fs-small">{ day.temperatureMin }˚</span></p>
